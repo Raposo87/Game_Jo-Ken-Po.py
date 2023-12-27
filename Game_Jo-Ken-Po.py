@@ -1,7 +1,7 @@
 
 from random import randint # Importando biblioteca randon, para escolha aleatoria do computador
 from time import sleep # Importando temporizador
-itens = ('Pedra', 'Papel','Tesoura')
+itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0,2) # escolha aleatoria do computador apenas de 0 a 2
 print('''Suas opões:
 [0] PEDRA
